@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/locomotive-scroll.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts/style.css">
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+
+  <script src="js/swup.min.js"></script>
+  <script src="js/SwupBodyClassPlugin.min.js" charset="utf-8"></script>
+  <script src="js/SwupHeadPlugin.min.js" charset="utf-8"></script>
+  <script src="js/SwupDebugPlugin.min.js" charset="utf-8"></script>
+
+</head>
+<body class="animated">
+  <div class="preloader"></div>
+  <div class="fixed">
+    <div class="header slide-down">
+      <a href="#" class="header__logo">
+        <span class="logo animate">
+          <img src="img/logo.svg" alt="">
+        </span>
+      </a>
+      <div class="header__nav">
+        <ul id="menu" class="site-nav animate">
+          <li><a href="https://www.marchettidesign.net/test/swupux/" data-id="1">Home</a></li>
+          <li><a href="https://www.marchettidesign.net/test/swupux/single.html" data-id="2">Single</a></li>
+          <li><a href="https://www.marchettidesign.net/test/swupux/cover.html" data-id="3">Cover</a></li>
+          <li class="menu-item-has-children"><a href="">Lorem</a>
+            <ul>
+              <li><a href="">Link</a></li>
+              <li><a href="">Link</a></li>
+            </ul>
+          </li>
+          <li><a href="">Link</a></li>
+        </ul>
+      </div>
+      <div class="header__cta">
+        <a href="" class="button">
+          Contatti
+        </a>
+      </div>
+      <div class="header__hamburge">
+        <div class="hamburger-icon"><span></span></div>
+      </div>
+    </div> <!-- header -->
+  </div> <!-- fixed -->
+
+  <div class="social-icons sma-hide">
+    <a href="" class="fade-up delay-10"><img src="icons/facebook.svg" alt=""></a>
+    <a href="" class="fade-up delay-8"><img src="icons/instagram.svg" alt=""></a>
+    <a href="" class="fade-up delay-6"><img src="icons/linkedin.svg" alt=""></a>
+  </div><!-- social icons -->
+
+  <div class="bottom-icons slide-up sma-hide">
+    <div class="bottom-icons__inside">
+      <div class="bottom-icons__left darkmode">
+        <img src="icons/darkmode.svg" alt="">
+      </div>
+      <div class="bottom-icons__center">
+        <div class="line-center"></div>
+      </div>
+      <div class="bottom-icons__right">
+        <img src="icons/search.svg" alt="">
+      </div>
+    </div>
+  </div><!-- bottom icons -->
+
+  <div class="svg-container animate fade-down">
+    <div class="svg-box">
+      <svg class="svg-image animate parallax" data-offset="35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0, 0, 600, 600">
+        <g transform="translate(300,300)">
+          <path id="path" d="M111.3,-168.7C128.6,-140.7,116.1,-87.2,115.3,-47.5C114.4,-7.7,125.2,18.2,122.1,43.4C119.1,68.6,102.2,92.9,79.5,114.7C56.8,136.5,28.4,155.8,-3.1,160.1C-34.7,164.4,-69.4,153.8,-97.6,133.8C-125.8,113.8,-147.5,84.4,-177.4,45.2C-207.3,6,-245.4,-43.1,-230.4,-70.4C-215.4,-97.8,-147.4,-103.5,-100.1,-121.8C-52.9,-140.1,-26.5,-171.1,10.3,-185.2C47,-199.4,94,-196.8,111.3,-168.7Z"/>
+        </g>
+      </svg>
+    </div>
+  </div><!-- svg container -->
+
+
+  <div id="container-scroll" data-scroll-container>
+    <div id="container-main">
+
+      <main id="swup" class="transition">
+
+        <div class="hero" data-scroll-section>
+          <div class="grid">
+
+            <div class="container-bubble parallax" data-scroll data-scroll-speed="-1" data-scroll-position="top" data-offset="30">
+              <div class="bubble bubble--1 zoom-out delay-10"  data-scroll></div>
+              <div class="bubble bubble--2 zoom-out delay-4" data-scroll></div>
+              <div class="bubble bubble--3 zoom-out delay-6" data-scroll></div>
+            </div><!-- bubble -->
+
+            <div class="col-50">
+              <div class="hero__intro">
+                <div class="hero__content">
+                  <h1 class="headline">
+                    <span class="text-reveal" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-position="top"><b>Un <span class="mark">nuovo <span class="mark__line sma-hide"></span></span> Sito</b></span>
+                    <span class="text-reveal" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" data-scroll-position="top"><b>Next <span class="mark">Level<span class="mark__line a-delay-1 sma-hide"></span></span></b></span>
+                    <span class="text-reveal" data-scroll data-scroll-direction="horizontal" data-scroll-speed="1" data-scroll-position="top"><b>WordPress <span class="mark">Pro<span class="mark__line a-delay-2 sma-hide"></span></span></b></span>
+                  </h1>
+                  <p data-scroll class="fade-up delay-6"><span data-scroll data-scroll-speed="0.7" data-scroll-position="top">Lorem ipsum dolor sit amet, consectetur adipisicing elit unde ullam voluptas quae eius magni quas.</span></p>
+                  <p data-scroll class="fade-up delay-4">
+                    <a href="" class="button">Button call to action <span><img class="animate" src="icons/arrow-right.svg" alt=""></span></a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- col -->
+
+            <div class="col-50" data-scroll data-scroll-speed="-3" data-scroll-position="top">
+              <img class="hero__image zoom-in parallax" src="img/img-1.jpg" data-scroll data-offset="20">
+            </div><!-- col -->
+
+          </div> <!-- grid -->
+
+          <svg class="divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,100 100,0 100,100"/>
+          </svg>
+
+        </div> <!-- hero -->
+
+
+
+        <div class="media-affix" id="affix-container" data-scroll-section>
+          <div class="grid">
+
+            <div class="col-50" data-scroll data-scroll-sticky data-scroll-target="#affix-container">
+              <h3 class="headline">
+                <span class="text-reveal" data-scroll><b>Lorem ipsum</b></span>
+                <span class="text-reveal" data-scroll><b>sot sia amet labor</b></span>
+              </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quis maiores asperiores impedit natus quidem facilis harum incidunt illo ex, accusantium culpa minima unde ullam voluptas quae eius magni quas.</p>
+              <p><a href="" class="button">Button</a></p>
+            </div>
+
+
+            <div class="col-50">
+              <div class="media-affix__item">
+                <img data-scroll class="media-affix__shape zoom-out" data-scroll-speed="-1" src="img/small-shape.svg"/>
+                <div data-scroll class="media-affix__text zoom-out">
+                  <h3 class="title">Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div data-scroll class="media-affix__data" data-scroll-speed="-1.5">
+                  <strong>Mi sono occupato di:</strong>
+                  <ul>
+                    <li data-scroll class="zoom-fade-right"> <span><img src="icons/edit.svg" alt=""></span> Design Custom</li>
+                    <li data-scroll class="zoom-fade-right"> <span class="bg-yellow"><img src="icons/pie-chart.svg" alt=""></span> Marketing Strategy</li>
+                    <li data-scroll class="zoom-fade-right"> <span class="bg-green"><img src="icons/shopping-cart.svg" alt=""></span> Sviluppo eCommerce </li>
+                  </ul>
+                </div>
+                <div data-scroll class="media-affix__img fade-up" data-scroll-speed="2" data-scroll-position="top" style="background: url('img/img-1.jpg') center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-50"></div>
+
+            <div class="col-50">
+              <div class="media-affix__item">
+                <img data-scroll class="media-affix__shape zoom-out" data-scroll-speed="-1" src="img/small-shape.svg"/>
+                <div data-scroll class="media-affix__text zoom-out">
+                  <h3 class="title">Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div data-scroll class="media-affix__data" data-scroll-speed="-1.5">
+                  <strong>Mi sono occupato di:</strong>
+                  <ul>
+                    <li data-scroll class="zoom-fade-right"> <span><img src="icons/edit.svg" alt=""></span> Design Custom</li>
+                    <li data-scroll class="zoom-fade-right"> <span class="bg-yellow"><img src="icons/pie-chart.svg" alt=""></span> Marketing Strategy</li>
+                    <li data-scroll class="zoom-fade-right"> <span class="bg-green"><img src="icons/shopping-cart.svg" alt=""></span> Sviluppo eCommerce </li>
+                  </ul>
+                </div>
+                <div data-scroll class="media-affix__img fade-up" data-scroll-speed="1" data-scroll-position="top" style="background: url('img/img-1.jpg') center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-50"></div>
+
+
+            <div class="col-50">
+              <div class="media-affix__item">
+                <img data-scroll class="media-affix__shape zoom-out" data-scroll-speed="-1" src="img/small-shape.svg"/>
+                <div data-scroll class="media-affix__text zoom-out">
+                  <h3 class="title">Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div data-scroll class="media-affix__data" data-scroll-speed="-1.5">
+                  <strong>Mi sono occupato di:</strong>
+                  <ul>
+                    <li data-scroll class="zoom-fade-right"> <span><img src="icons/edit.svg" alt=""></span> Design Custom</li>
+                    <li data-scroll class="zoom-fade-right"> <span class="bg-yellow"><img src="icons/pie-chart.svg" alt=""></span> Marketing Strategy</li>
+                    <li data-scroll class="zoom-fade-right"> <span class="bg-green"><img src="icons/shopping-cart.svg" alt=""></span> Sviluppo eCommerce </li>
+                  </ul>
+                </div>
+                <div data-scroll class="media-affix__img fade-up" data-scroll-speed="0.8" data-scroll-position="top" style="background: url('img/img-1.jpg') center center; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <svg class="divider divider--white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon  points="0,100 100,0 100,100"/>
+          </svg>
+
+
+        </div> <!-- affix -->
+
+
+        <div class="media-panel" data-scroll-section>
+
+          <div class="grid">
+            <div class="col-50">
+              <div data-scroll class="media-panel__img zoom-in">
+                <img data-scroll data-scroll-speed="-1.8" class="" src="img/img-1.jpg">
+              </div>
+            </div>
+            <div class="col-40">
+              <div class="media-panel__text vertical-center">
+                <div class="media-panel__content">
+                  <h3 class="headline">
+                    <span class="text-reveal" data-scroll><b>Lorem ipsum</b></span>
+                    <span class="text-reveal" data-scroll><b>sot sia amet</b></span>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia qui corporis impedit, quidem molestias et, error eum nisi quia consequatur architecto?</p>
+                  <p><a href="" class="button">Button</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <svg class="divider divider--blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,100 100,0 100,100"/>
+          </svg>
+
+        </div><!-- media panel -->
+
+
+
+        <div class="section-blue" data-scroll-section>
+
+          <div class="media-title">
+            <div class="grid">
+              <div class="col-100">
+                <h3 class="title">Più esempi sui nostri servizi?</h3>
+                <p>Ecco qui alcuni casi studio</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid">
+
+            <div data-scroll class="col-25 fade-left">
+              <div class="tile-container" data-scroll data-scroll-delay="0.4" data-scroll-speed="0.5">
+                <div class="tile__number"> 1 </div>
+                <img class="tile__img" src="img/img-1.jpg" alt="">
+                <div class="tile">
+                  <div class="tile__content">
+                    <h3 class="subtitle"> Lorem </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div data-scroll class="col-25 fade-left">
+              <div class="tile-container" data-scroll data-scroll-delay="0.8" data-scroll-speed="2.5">
+                <div class="tile__number"> 1 </div>
+                <img class="tile__img" src="img/img-1.jpg" alt="">
+                <div class="tile">
+                  <div class="tile__content">
+                    <h3 class="subtitle"> Lorem </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div  data-scroll class="col-25 fade-left">
+              <div class="tile-container" data-scroll data-scroll-delay="0.5" data-scroll-speed="5.5">
+                <div class="tile__number"> 1 </div>
+                <img class="tile__img" src="img/img-1.jpg" alt="">
+                <div class="tile">
+                  <div class="tile__content">
+                    <h3 class="subtitle"> Lorem </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div  data-scroll class="col-25 fade-left">
+              <div class="tile-container" data-scroll data-scroll-delay="1" data-scroll-speed="3.5">
+                <div class="tile__number"> 1 </div>
+                <img class="tile__img" src="img/img-1.jpg" alt="">
+                <div class="tile">
+                  <div class="tile__content">
+                    <h3 class="subtitle"> Lorem </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <svg class="divider divider--white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,100 100,0 100,100"/>
+          </svg>
+
+
+        </div><!-- bg blue -->
+
+
+        <div class="media-title media-title--divider" data-scroll-section>
+          <div class="grid">
+            <div class="col-100">
+              <h3 class="title">Dati sui nostri servizi?</h3>
+              <p>Ecco qui alcuni dati</p>
+            </div>
+          </div>
+          <svg class="divider divider--purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,100 100,0 100,100"/>
+          </svg>
+        </div>
+
+        <div class="section-purple" data-scroll-section>
+
+          <div class="grid negative-top">
+            <div class="col-40" data-scroll data-scroll-speed="-1">
+              <div data-scroll class="media-data fade-left">
+                <div class="media-data__text">
+                  <h3 class="title"> Text</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+                </div>
+                <div class="media-data__number">
+                  14K
+                </div>
+                <img src="img/img-1.jpg" alt="" class="media-data__img">
+              </div>
+              <div data-scroll class="media-data fade-left">
+                <div class="media-data__text">
+                  <h3 class="title"> Text</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+                </div>
+                <div class="media-data__number">
+                  14K
+                </div>
+                <img src="img/img-1.jpg" alt="" class="media-data__img">
+              </div>
+              <div data-scroll class="media-data fade-left">
+                <div class="media-data__text">
+                  <h3 class="title"> Text</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+                <div class="media-data__number">
+                  14K
+                </div>
+                <img src="img/img-1.jpg" alt="" class="media-data__img">
+              </div>
+            </div>
+            <div class="col-60">
+              <div class="media-shape">
+                <div class="media-shape__content">
+                  <img data-scroll data-scroll-speed="1" class="media-shape__shape" src="img/small-shape.svg"/>
+                  <img data-scroll class="media-shape__img zoom-in" src="img/img-4.jpg" alt="">
+                  <div class="media-shape__text">
+                    <p>Lorem ipsum dolor sit amet, arum reiciendis. Eum, natus, iure?</p>
+                    <p><a href="" class="button"> Button </a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <svg class="divider divider--white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,100 100,0 100,100"/>
+          </svg>
+
+        </div>
+
+
+
+        <div class="cta" data-scroll-section>
+          <div class="cta__content">
+            <h3 class="headline"> <span data-scroll class="text-reveal"><b>Vui saperne di più?</b></span>  </h3>
+            <p>lorem ispum dos asia amet labor</p>
+            <p><a href="" class="button button--cta">Contattaci</a></p>
+          </div>
+        </div>
+
+
+
+      </main> <!-- Swup -->
+
+
+
+      <div class="prefooter" data-scroll-section>
+        <svg class="divider divider--blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="0,100 100,0 100,100"/>
+        </svg>
+      </div>
+      <div class="footer" data-scroll-section>
+
+
+        <div class="grid">
+          <div class="col-33">
+            <img src="img/logo.svg" alt="">
+          </div>
+          <div class="col-33">
+            <h4>Lorem ispum</h4>
+            <ul>
+              <li>lorme ispudm do</li>
+              <li>lorme ispudm do</li>
+              <li>lorme ispudm do</li>
+              <li>lorme ispudm do</li>
+            </ul>
+          </div>
+          <div class="col-33">
+            <h4>Lorem ispum</h4>
+            <ul>
+              <li>lorme ispudm do</li>
+              <li>lorme ispudm do</li>
+              <li>lorme ispudm do</li>
+              <li>lorme ispudm do</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <script src="js/anime.min.js"></script>
+  <script src="js/locomotive-scroll.min.js" charset="utf-8" ></script>
+  <script src="js/scripts.js" charset="utf-8" ></script>
+
+
+
+
+
+</body>
+</html>
